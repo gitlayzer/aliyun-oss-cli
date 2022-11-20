@@ -412,7 +412,14 @@ func main() {
 ```
 
 ```shell
-再次打包测试：
-测试结果：
+测试单文件和目录
+
+[root@cdk-server ~]# ./oss-cli -f aliyun 
+aliyun Upload Success！！！
+Download URL: https://layzer.oss-cn-shanghai.aliyuncs.com/aliyun
+
+[root@cdk-server ~]# ./oss-cli -f 1/2/3/aliyun 
+1/2/3/aliyun Upload Success！！！
+Download URL: https://layzer.oss-cn-shanghai.aliyuncs.com/1/2/3/aliyun
 ```
 
